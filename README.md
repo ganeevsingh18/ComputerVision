@@ -6,11 +6,11 @@ Each project follows a cycle of **building from scratch → improving with advan
 ## Image Classification & Segmentation using Deep Learning
 
 ### Image Classification
-1. CNN from scratch: First trained a CNN model from scratch on the Russian Wildlife dataset (65% accuracy, F1 0.65). The model didn't perform as well, revealing the limitations of small custom architectures.
-2. Pre-trained ResNet18: Fine tuned a pre-trained Resnet model on the same dataset. The model performed well, accuracy improved to 83.5% (F1 0.83) but showed overfitting, highlighting risks of high-capacity models on limited data.
+1. CNN from scratch: First trained a CNN model from scratch on the Russian Wildlife dataset F1 0.65. The model didn't perform as well, revealing the limitations of small custom architectures.
+2. Pre-trained ResNet18: Fine tuned a pre-trained Resnet model on the same dataset. The model performed well, accuracy improved to F1 0.83 but showed overfitting, highlighting risks of high-capacity models on limited data.
 Analysis of misclassification errors showed that both low-color and cropped images were classified incorrectly.
 3. Data augmentation: 
-Augmented data with Colour Blasted, Cropped and rotated images and retrained Resenet18 Pre-trained model. This Boosted accuracy to 90.1% (F1 0.90). This solved overfitting and fixed misclassifications (e.g. black vs brown bear).  
+Augmented data with Colour Blasted, Cropped and rotated images and retrained Resenet18 Pre-trained model. This Boosted accuracy to F1 0.90. This solved overfitting and fixed misclassifications (e.g. black vs brown bear).  
 
 ### Image Segmentation 
 Applied a DeepLabv3+ model trained on Cityscapes to the Indian Driving Dataset. It performed well on sky, vegetation, and buildings but failed on scooters and pedestrians, revealing strong dataset bias. The model, optimized for European road scenes, struggled to generalize to Indian street conditions.
