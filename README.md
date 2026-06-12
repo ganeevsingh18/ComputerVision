@@ -29,8 +29,8 @@ Gained hands-on understanding of how multi-sensor systems are aligned in robotic
 - Open-Vocabulary Segmentation (CLIPSeg): Segmented images using text prompts instead of fixed labels. Compared outputs with ground truth and DeepLabv3+ from Image Segmentation Project, computing mAP to evaluate strengths and gaps.  
 - Visual Question Answering (BLIP): Used BLIP to answer natural language questions about images. Extended to a dataset of images + annotated Q&A, computed accuracy, and analyzed failure cases when the model misunderstood context.  
 
-## Takeaways
-- Built end-to-end systems: classification, segmentation, calibration, panorama stitching, 3D reconstruction.  
+## Learnings
+- Learned to built end-to-end systems: classification, segmentation, calibration, panorama stitching, 3D reconstruction.  
 - Experienced both **deep learning** (CNNs, ResNet, DeepLabv3+) and **geometry-based CV** (epipolar geometry, SfM).  
 - Learned to analyze **results, biases, and limitations**, not just train models.  
   
